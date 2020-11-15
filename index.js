@@ -1,6 +1,6 @@
 console.log("Function declaring using name and pecentage");
 function isPerct(name, percentage){
-    if(percentage < 35){
+   /* if(percentage < 35){
         console.log("FAIL");
     } else if(percentage == 35){
         console.log("JUST PASS");
@@ -11,7 +11,9 @@ function isPerct(name, percentage){
     } else{
         console.log("DISTINCTION");
     }
-    console.log("The percentage of " +name+ "is" +percentage);
+    console.log("The percentage of " +name+ "is" +percentage);*/
+
+    percentage < 35? console.log("FAIL") : console.log("PASS");
 }
 isPerct("Pluto", 20);
 isPerct("Sun",35);
@@ -29,5 +31,5 @@ function inCelsius(temp){
 }
 
 inCelsius(0);
-inCelsius(-1)
-inCelsius(1)
+inCelsius(-1);
+inCelsius(1);
