@@ -1,6 +1,6 @@
 console.log("Function declaring using name and pecentage");
 function isPerct(name, percentage){
-   /* if(percentage < 35){
+    if(percentage < 35){
         console.log("FAIL");
     } else if(percentage == 35){
         console.log("JUST PASS");
@@ -11,15 +11,21 @@ function isPerct(name, percentage){
     } else{
         console.log("DISTINCTION");
     }
-    console.log("The percentage of " +name+ "is" +percentage);*/
-
-    percentage < 35? console.log("FAIL") : console.log("PASS");
+    console.log("The percentage of " +name+ "is" +percentage);
 }
 isPerct("Pluto", 20);
 isPerct("Sun",35);
 isPerct("Moon", 60);
 isPerct("Jupiter",70);
 isPerct("Earth", 90);
+
+
+console.log("Function declaring using name and pecentage");
+function ismarks(name, marks){
+marks< 35? console.log( name + " isFAIL") : console.log( name + " is PASS");
+}
+ismarks("Arjun", 30);
+ismarks("Karn", 90)
 
 
 console.log("Function converting from celsius to Fahernite ");
